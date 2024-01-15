@@ -13,8 +13,8 @@ spec:
         app: multipod-app
     spec:
       containers:
-        - name: httpd-container
-          image: image-registry.openshift-image-registry.svc:5000/openshift/httpd:latest
+        - name: java-container
+          image: image-registry.openshift-image-registry.svc:5000/openshift/java:latest
 #          image: image-registry.openshift-image-registry.svc:5000/openshift/java        
           command: ["sleep", "4800"]
         - name: nginx-container
