@@ -16,7 +16,7 @@ spec:
         - name: httpd-container
           image: image-registry.openshift-image-registry.svc:5000/openshift/httpd:latest
 #          image: image-registry.openshift-image-registry.svc:5000/openshift/java        
-          command: ["sleep", "4900"]
+          command: ["sleep", "4800"]
         - name: nginx-container
           image: image-registry.openshift-image-registry.svc:5000/openshift/nginx:latest
           command: ["sleep", "4800"]
