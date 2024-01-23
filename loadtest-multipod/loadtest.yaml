@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: java-container
-          command: ["sleep", "5000"]
+          command: ["sleep", "5100"]
         - name: nginx-container
           command: ["sleep", "4800"]
