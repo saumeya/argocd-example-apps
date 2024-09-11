@@ -1,0 +1,6 @@
+# charts.yaml
+apiVersion: v1
+name: my-app
+version: 0.1.0
+sources:
+  - oci://quay.io/saumeyakatyal/my-helm-charts
